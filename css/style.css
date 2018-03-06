@@ -6,6 +6,9 @@ margin: 25px;
   max-width: 100%;
 } */
 
+.background{
+  background-image: image("img/global-warming.jpg");: 
+}
 .footer {
     position:fixed;
     bottom: 0;
