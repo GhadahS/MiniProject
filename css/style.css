@@ -4,7 +4,8 @@ margin: 25px;
 
 html body{
   font-family: lato;
-  background-color:rgb(1,12,29)
+  background-color:rgb(1,12,29);
+  /* font-family: 'Oswald', sans-serif; */
 }
 /* .navbar {
   max-width: 100%;
@@ -12,9 +13,14 @@ html body{
 .icons{
   margin: 50px;
 }
-#sidetitle{
+.sidetitle{
   height: 300px;
   width: 400px;
+}
+
+.sidetitle2{
+  height: 350px;
+  width: 500px;
 }
 
 #background{
@@ -22,16 +28,33 @@ html body{
   height: 650px;
 }
 
-h2, h1, h3, h4, h5, h6{
+h2,h3, h4, h5, h6{
   color: white;
   text-align: center;
   /* margin-top: 70px;
   float: left; */
 }
+h1{
+  color:#58A2B8;
+  /* color: #FAD655; */
+  text-align: center;
+  }
 .footer {
     position:fixed;
     bottom: 0;
     width: 100%
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid red;
+    margin: 1em 0;
+    padding: 0;
+}
 
-
+p{
+  color: white;
+  padding: 20px;
+  margin-top: 15px;
 }
