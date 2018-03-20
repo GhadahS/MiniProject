@@ -110,11 +110,16 @@ higher levels of air pollution
 <br> <br><br><br>
 <h1>The increase of temperature over the years</h1> <br><br> <br>
     <div class="row text-center planets">
-    					<div class="col planet year1"><img src="img/1_col.png" class="planet_img" id="year_1" alt="" style=" width: 60px; height: 60px;"><p style="color: white;">2003</p></div>
-    					<div class=" col planet year2"><img src="img/2_col.png" class="planet_img" id="year_2" alt="" style="width: 80px; height: 80px;"><p style="color: white;">2006</p></div>
-    					<div class="col planet year3"><img src="img/3_col.png" class="planet_img" id="year_3" alt="" style="width: 100px; height: 100px;"><p style="color: white;">2010</p></div>
-    					<div class="col planet year4"><img src="img/4_col.png" class="planet_img" id="year_4" alt="" style="width: 120px; height: 120px;"><p style="color: white;">2014</p></div>
-    					<!-- <input type="col hidden" id="selected_planet" value="4">
+            <div class="col planet year1"> <p id="myDIV">0.53°C</p> <br>
+               <img  onclick="myFunction()" src="img/1_col.png" class="planet_img" id="year_1" alt="" style=" width: 60px; height: 60px;"><p style="color: white;">2004</p></div>
+            <div class=" col planet year2">  <p id="myDIV">0.63°C </p>
+            <img onclick="myFunction()" src="img/2_col.png" class="planet_img" id="year_2" alt="" style="width: 80px; height: 80px;"><p style="color: white;">2009</p></div>
+    					<div class="col planet year3"><p id="myDIV">0.73°C </p>
+                <img onclick="myFunction()" src="img/3_col.png" class="planet_img" id="year_3" alt="" style="width: 100px; height: 100px;"><p style="color: white;">2014</p></div>
+    					<div class="col planet year4"> <p id="myDIV">0.9°C</p>
+                <img onclick="myFunction()" src="img/4_col.png" class="planet_img" id="year_4" alt="" style="width: 120px; height: 120px;"><p style="color: white;">2017</p></div>
+
+              <!-- <input type="col hidden" id="selected_planet" value="4">
     					<input type="col hidden" id="year_1_figure" value="11">
     					<input type="col hidden" id="year_2_figure" value="372">
     					<input type="col hidden" id="year_3_figure" value="4563">
@@ -171,11 +176,31 @@ higher levels of air pollution
 
 <!-- <p style="color: white;"> On 3 November 2016, Saudi Arabia ratified the Paris Agreement
 According to its NDC Saudi Arabia seeks to reduce its annual emissions by up to 130 MtCO2e in 2030 </p> -->
-<br><br><br><br>
-<h1>Implemented solutions</h1> <img src="img/icon7.png" alt="">
+</div> <br><br><br><br>
+<section class="">
+<h1>Actions</h1>
+<!-- <img src="img/icon7.png" alt=""> -->
+<div class="row">
+<div class="col">
+  <h3>Indivisuals</h3>
+  <img src="img/indiv.jpeg" alt="">
+</div>
+<div class="col">
+  <h3>Orgnizations</h3>
+  Expand the use of renewable energy and transform our energy system to one that is cleaner and less dependent on coal and other fossil fuels <br>
+  Increase vehicle fuel efficiency and support other solutions that reduce U.S. oil use.
+</div>
+<div class="col">
+  <h3>Government</h3>
+  Place limits on the amount of carbon that polluters are allowed to emit.<br>
+  Build a clean energy economy by investing in efficient energy technologies, industries, and approaches.
+</div>
+</div>
+</section>
  <!-- <p style="color: white;">Renewable energy + awareness</p> -->
 
 <!-- <a href="https://www.scientificamerican.com/article/7-solutions-to-climate-change-happening-now/#"><h5>Implemented solutions</h5></a> -->
+<div class="container">
 <br><br><br><br><br><br>
 <div class="row">
   <div class="col text-center">
@@ -185,9 +210,19 @@ According to its NDC Saudi Arabia seeks to reduce its annual emissions by up to 
 </div>
 
 </div>
-
+</div>
 <footer>
 <img src="img/footer_earth.png" alt="">
 </footer>
 </body>
+<script type="text/javascript">
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+      x.style.display = "block";
+  } else {
+      x.style.display = "none";
+  }
+}
+</script>
 </html>
