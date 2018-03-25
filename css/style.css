@@ -103,9 +103,14 @@ p{
 }
 
 .action-icon{
-  height: 170px;
-  width:270px;
-  margin-left: 70px;
+  height: 140px;
+  width:200px;
+  /* margin-left: 70px; */
+}
+.action-p{
+  text-align: center;
+  margin-right: 45px;
+  margin-top: 10px;
 }
 .years{
   font-size: 25px;
@@ -125,6 +130,7 @@ p{
 
 span{
   font-weight: bold;
+  color: #cc2424;
   /* color: Yellow; */
 }
 
